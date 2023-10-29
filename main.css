@@ -1,0 +1,114 @@
+
+header{
+    background-color: #111111;
+}
+#logo-header{
+    width: 360px;
+    padding-top: 8px;
+    padding-bottom: 8px ;
+    cursor: pointer;
+}
+h1{
+    color: white;
+    margin-left: 16px;
+    font-family: 'Advent Pro', sans-serif;
+    font-style: italic;
+    font-weight: 500;
+    font-size: 32px;
+}
+h2{
+    font-size: 48px;
+    padding-top: 8px;
+    font-family: 'Advent Pro', sans-serif;
+    border-bottom: 4px solid #111111;
+}
+h3{
+    font-size: 40px;
+}
+h4{
+    font-size: 32px;
+}
+h5{
+    font-size: 24px;
+}
+h6{
+    font-size: 14px;
+    color: #777;
+}
+section{
+    padding-top: 124px;
+}
+.carousel, .card-body{
+    cursor: pointer;
+}
+.carousel-inner{
+    max-width: 1280px;
+}
+.carousel-caption{
+    background-color: rgba(0, 0, 0, 0.7);
+    border-radius: 12px;
+}
+.card{
+    margin-top: 32px;
+}
+.card img{
+    cursor: pointer;
+}
+.botao{
+    margin: 0 auto;
+}
+#about{
+    background-color: #111111;
+    color: #fff;
+    border: solid 2px #111111;
+    padding-top: 0;
+    margin-top: 84px;
+}
+#about h4{
+    font-family: 'Advent Pro', sans-serif;
+    margin-bottom: 0;
+}
+#recaptcha-text{
+    font-size: 12px;
+    text-align: center;
+}
+#logo-footer{
+    width: 240px;
+    cursor: pointer;
+}
+.informacoes{
+    border-bottom: solid 2px #777;
+    padding-top: 32px;
+}
+.redes{
+    padding: 32px 0;
+    height: 30vh;
+}
+svg{
+    padding-left: 8px;
+    cursor: pointer;
+}
+#about>.container>p{
+    padding-top: 64px;
+}
+.navbar-nav .nav-link.active{
+    color: white;
+}
+.nav-link{
+    text-align: center;
+    color: #fff;
+}
+.navbar-toggler{
+    margin-left: 27vw;
+}
+
+@media screen and (max-width: 768px){
+    .navbar-toggler{
+        margin-left: 8vw;
+        width: 100%;
+        margin: 0;
+    }
+    section{
+        padding-top: 168px;
+    }
+}
